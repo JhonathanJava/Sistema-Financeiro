@@ -17,5 +17,5 @@ interface RepositoryInterface
     public function update(int $id, array $data);
     public function delete(int $id);
     public function find(int $id, bool $failIfNotExist = true);
-    public function findByField(string $field,$value): array;
+    public function findByField(string $field,$value);
 }
